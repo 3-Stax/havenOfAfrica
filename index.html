@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add this meta tag for performance -->
+<meta http-equiv="Cache-Control" content="public, max-age=31536000, immutable">
+    <title>HAVEN of Africa Guesthouse | Premium Accommodation in Windhoek</title>
+    
+    <!-- SEO & Social -->
+    <meta name="description" content="Experience opulent stays at HAVEN of Africa Guesthouse, Windhoek North. Luxury suites, pool, and 5-star hospitality in Namibia's capital.">
+    <meta name="keywords" content="luxury guesthouse windhoek, haven of africa guesthouse, namibia accommodation, boutique hotel windhoek">
+    <meta property="og:title" content="HAVEN of Africa Guesthouse | Luxury Windhoek Accommodation">
+    <meta property="og:description" content="Experience opulent stays at HAVEN of Africa Guesthouse, Windhoek North. Luxury suites, pool, and 5-star hospitality in Namibia's capital.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://havenofafriaguesthouse.com.na">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23121820'/%3E%3Ctext x='50' y='68' font-family='Cinzel' font-size='52' fill='%23d4af37' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Preconnect for faster external resources -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+<!-- Font Awesome - Load async -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</noscript>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Resource hints for faster loading -->
+<link rel="preload" as="image" href="assets/hero/rg1.webp">
+<link rel="preload" as="image" href="assets/hero/rg2.webp">
+</head>
+<body>
+
+    <!-- Page Loader with Progress -->
+<div class="page-loader" id="pageLoader">
+    <div class="loader-logo">HAVEN of Africa</div>
+    <div class="loader-progress-container">
+        <div class="loader-progress-bar" id="loaderProgress"></div>
+    </div>
+    <div class="loader-percentage" id="loaderPercentage">0%</div>
+    <div class="loader-gold-bar"></div>
+</div>
+
+    <!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#" class="logo" aria-label="HAVEN of Africa Guesthouse Home">
+        <span class="logo-icon" aria-hidden="true">H</span>
+        <span class="logo-text">HAVEN of Africa <span>GUESTHOUSE</span></span>
+    </a>
+    
+    <!-- Navbar Weather -->
+    <div class="navbar-weather" id="navbarWeather">
+        <i class="fas fa-spinner fa-spin"></i>
+        <span class="navbar-weather-temp" id="navbarWeatherTemp">--°C</span>
+        <span class="navbar-weather-condition" id="navbarWeatherCondition">Loading...</span>
+    </div>
+    
+    <a href="https://wa.me/264817725649?text=Hi%20HAVEN%20of%20Africa%20Guesthouse,%20I'd%20like%20to%20inquire%20about%20a%20booking." 
+       class="btn-primary" 
+       target="_blank" 
+       rel="noopener noreferrer">
+        Book Direct
+    </a>
+</header>
+
+    
+    <!-- ===== HERO ===== -->
+<section class="hero" id="hero" aria-label="Hero banner">
+    <div class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" data-index="0">
+            <img src="assets/hero/hero1.jpeg" alt="HAVEN of Africa Guesthouse luxury suite"  loading="eager"
+         width="1920" 
+         height="1080"
+         decoding="async">
+        </div>
+        <!-- Slide 2 -->
+        <div class="hero-slide" data-index="1">
+            <img src="assets/hero/hero2.jpeg" alt="HAVEN of Africa Guesthouse pool area"  loading="eager"
+         width="1920" 
+         height="1080"
+         decoding="async">
+        </div>
+        <!-- Slide 3 -->
+        <div class="hero-slide" data-index="2">
+            <img src="assets/hero/hero3.jpeg" alt="HAVEN of Africa Guesthouse garden view"  loading="eager"
+         width="1920" 
+         height="1080"
+         decoding="async">
+        </div>
+        <!-- Slide 4 -->
+        <div class="hero-slide" data-index="3">
+            <img src="assets/hero/hero4.jpeg" alt="HAVEN of Africa Guesthouse executive room"  loading="eager"
+         width="1920" 
+         height="1080"
+         decoding="async">
+        </div>
+       
+    </div>
+
+   
+    
+    <!-- Carousel Controls -->
+    <button class="hero-arrow hero-arrow-prev" aria-label="Previous slide">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="hero-arrow hero-arrow-next" aria-label="Next slide">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+
+    <!-- Dots Navigation -->
+    <div class="hero-dots" role="tablist" aria-label="Slide navigation">
+        <button class="hero-dot active" data-index="0" role="tab" aria-label="Slide 1"></button>
+        <button class="hero-dot" data-index="1" role="tab" aria-label="Slide 2"></button>
+        <button class="hero-dot" data-index="2" role="tab" aria-label="Slide 3"></button>
+        <button class="hero-dot" data-index="3" role="tab" aria-label="Slide 4"></button>
+        <button class="hero-dot" data-index="4" role="tab" aria-label="Slide 5"></button>
+    </div>
+
+    <!-- Content (stays on top of slider) -->
+    <div class="hero-content">
+        <span class="sub-heading">Windhoek North • Namibia</span>
+        <h1>Timeless Elegance<br>in the Heart of the Capital</h1>
+        <p>Where modern luxury meets Namibian warmth — experience impeccable service, serene surrounds, and suites crafted for the discerning traveler.</p>
+        <div class="hero-buttons">
+            <a href="#rooms" class="btn-primary">Explore Suites →</a>
+            <a href="#booking" class="btn-secondary">Inquire Now</a>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== AMENITIES ===== -->
+    <section class="amenities" aria-label="Guest amenities">
+        <div class="amenities-grid">
+            <div class="amenity-item">
+                <span class="icon" aria-hidden="true">✦</span>
+                <h4>Wi-Fi</h4>
+                <p>500 Mbps · Dedicated</p>
+            </div>
+            <div class="amenity-item">
+                <span class="icon" aria-hidden="true">◈</span>
+                <h4>Heated Pool</h4>
+                <p>Open year-round</p>
+            </div>
+            <div class="amenity-item">
+                <span class="icon" aria-hidden="true">❋</span>
+                <h4>Climate Control</h4>
+                <p>Individual room AC</p>
+            </div>
+            <div class="amenity-item">
+                <span class="icon" aria-hidden="true">◉</span>
+                <h4>Secure Parking</h4>
+                <p>24/7 CCTV &amp; guard</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ROOMS ===== -->
+    <section class="rooms" id="rooms" aria-label="Our luxury suites">
+        <div class="section-title">
+            <span class="sub-heading">Accommodations</span>
+            <h2>Our Executive Suites</h2>
+            <div class="gold-line"></div>
+        </div>
+
+        <div class="room-grid">
+            <!-- Room 1 -->
+            <article class="room-card" tabindex="0" aria-label="Presidential Suite">
+                <div class="room-img">
+                    <img src="assets/room/room1/room1.jpeg" 
+                         alt="Presidential Suite with king-size bed and garden view" 
+                         loading="lazy"
+     width="600" 
+     height="400"
+     decoding="async">
+                </div>
+                <div class="room-info">
+                    <h3>The Presidential Suite</h3>
+                    <p>King-size bed, private patio with garden view, luxury ensuite bathroom, and dedicated workspace.</p>
+                    <div class="price">N$ 1,450 <span>/ night</span></div>
+                    <a href="https://wa.me/264817725649?text=Hi,%20I%20am%20interested%20in%20booking%20the%20Presidential%20Suite." 
+                       class="btn-card" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        Reserve via WhatsApp
+                    </a>
+                </div>
+            </article>
+
+            <!-- Room 2 -->
+            <article class="room-card" tabindex="0" aria-label="Executive Double Room">
+                <div class="room-img">
+                    <img src="assets/room/room2/room2.jpeg" 
+                         alt="Executive Double Room with queen-size bed and modern design" 
+                         loading="lazy"
+     width="600" 
+     height="400"
+     decoding="async">
+                </div>
+                <div class="room-info">
+                    <h3>Executive Double Room</h3>
+                    <p>Queen-size bed, sleek modern design, satellite TV, coffee bar, and air-conditioning.</p>
+                    <div class="price">N$ 950 <span>/ night</span></div>
+                    <a href="https://wa.me/264817725649?text=Hi,%20I%20am%20interested%20in%20booking%20the%20Executive%20Double%20Room." 
+                       class="btn-card" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        Reserve via WhatsApp
+                    </a>
+                </div>
+            </article>
+
+            <!-- Room 3 - FIXED IMAGE -->
+            <article class="room-card" tabindex="0" aria-label="Garden View Room">
+                <div class="room-img">
+                    <img src="assets/room/room3/room3.jpeg" 
+                         alt="Garden View Room with queen bed and private courtyard" 
+                         loading="lazy"
+     width="600" 
+     height="400"
+     decoding="async">
+                </div>
+                <div class="room-info">
+                    <h3>Garden View Room</h3>
+                    <p>Queen-size bed, private courtyard access, premium bedding, and Nespresso machine.</p>
+                    <div class="price">N$ 750 <span>/ night</span></div>
+                    <a href="https://wa.me/264817725649?text=Hi,%20I%20am%20interested%20in%20booking%20the%20Garden%20View%20Room." 
+                       class="btn-card" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        Reserve via WhatsApp
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== BOOKING / INQUIRIES FORM ===== -->
+    <section class="booking" id="booking" aria-label="Booking and inquiries">
+        <div class="booking-container">
+            <div class="section-title">
+                <span class="sub-heading">Make a Reservation</span>
+                <h2>Plan Your Stay</h2>
+                <div class="gold-line"></div>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 1.5rem auto 0; font-weight: 300;">
+                    Fill in the form below and our concierge team will respond within 24 hours.
+                </p>
+            </div>
+
+            <form class="booking-form" id="bookingForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Emma Theofilus" required />
+                        <span class="error-message">Please enter your full name</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="emma@example.com" required />
+                        <span class="error-message">Please enter a valid email address</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+264 81 123 4567" required />
+                        <span class="error-message">Please enter your phone number</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="roomType">Preferred Suite</label>
+                        <select id="roomType" name="roomType">
+                            <option value="">Select a suite...</option>
+                            <option value="presidential">Presidential Suite</option>
+                            <option value="executive">Executive Double Room</option>
+                            <option value="garden">Garden View Room</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkIn">Check-in Date <span class="required">*</span></label>
+                        <input type="date" id="checkIn" name="checkIn" required />
+                        <span class="error-message">Please select a check-in date</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkOut">Check-out Date <span class="required">*</span></label>
+                        <input type="date" id="checkOut" name="checkOut" required />
+                        <span class="error-message">Please select a check-out date</span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" name="guests" min="1" max="10" value="2" />
+                    </div>
+                    <div class="form-group">
+                        <label for="specialRequests">Special Requests</label>
+                        <input type="text" id="specialRequests" name="specialRequests" placeholder="Dietary needs, extra bedding, etc." />
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Additional Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any special requirements or questions..."></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit" class="btn-primary submit-btn">
+                        <span>Send Inquiry</span>
+                        <i class="fas fa-paper-plane" style="margin-left: 0.75rem;"></i>
+                    </button>
+                </div>
+
+                <div class="form-success" id="formSuccess">
+                    <i class="fas fa-check-circle" style="color: var(--accent-gold); font-size: 2rem; margin-bottom: 1rem;"></i>
+                    <h3>Thank You!</h3>
+                    <p>Your inquiry has been received. Our concierge team will contact you within 24 hours.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" aria-label="Guest testimonials">
+        <div class="testimonial-card">
+            <blockquote>
+                The most serene stay in Windhoek. Every detail, from the Egyptian cotton linens to the hand-roasted coffee, was perfection.
+            </blockquote>
+            <cite>Helena S., Swakopmund</cite>
+            <div style="margin-top: 0.5rem; color: var(--accent-gold); letter-spacing: 2px;">
+                ★★★★★
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCATION ===== -->
+<section class="location" id="location" aria-label="Location and contact information">
+    <div class="location-container">
+        <div class="location-wrapper">
+            <!-- Left: Text Content -->
+            <div class="location-text">
+                <span class="sub-heading">Prime Location</span>
+                <h2>Find Us in Windhoek</h2>
+                <p>Located in the quiet, secure streets of Windhoek North, 
+                    just 5 minutes from the central business district and 40 minutes from 
+                    Hosea Kutako International Airport.</p>
+                <ul class="contact-list">
+                    <li>649 Caprivistrasse, Windhoek</li>
+                    <li>
+                        <a href="tel:+264817725649">+264 (0) 81 772 5649</a>
+                    </li>
+                    <li>
+                        <a href="mailto:res@havenofafriaguesthouse.com.na">res@havenofafriaguesthouse.com.na</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right: Google Maps -->
+            <div class="location-map">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14737.973554564522!2d17.083822609924304!3d-22.560642862983162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1b006873bde1%3A0xb4176dc3f807af95!2sHaven%20of%20Africa%20guesthouse!5e0!3m2!1sen!2sna!4v1790069655442!5m2!1sen!2sna" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- ===== FOOTER ===== -->
+<footer>
+    <div class="footer-divider"></div>
+    
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/HavenOfAfriceGuesthouse/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/explore/locations/457754207598682/havenofafriaguesthouse/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/havenofafriaguesthouse" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://youtube.com/havenofafriaguesthouse" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://tiktok.com/@havenofafriaguesthouse" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://wa.me/264817725649" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <p>&copy; 2026 Haven of Africa Guesthouse Windhoek. All Rights Reserved.</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+<!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+<a href="https://wa.me/264817725649?text=Hi%20Haven%20of%20Africa%20Guesthouse!%20I%27d%20like%20to%20make%20a%20booking%20inquiry." 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   aria-label="Contact us on WhatsApp">
+    <div class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        <span class="gold-ring"></span>
+    </div>
+    <span class="tooltip">Chat with us ✨</span>
+</a>
+<!-- Performance Monitoring -->
+<!-- Performance Monitoring -->
+<script>
+(function measurePerformance() {
+    window.addEventListener('load', function() {
+        const perfData = performance.getEntriesByType('navigation')[0];
+        if (perfData) {
+            const loadTime = Math.round(perfData.loadEventEnd - perfData.fetchStart);
+            console.log(`🚀 Page loaded in ${loadTime}ms`);
+        }
+    });
+})();
+</script>
+</body>
+</html>
